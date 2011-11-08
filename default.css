@@ -1,13 +1,14 @@
 body {
-  color: #F3F0E7;
+  color: #f3f0e7;
   font-family: "Trebuchet MS", Helvetica, sans-serif; }
 
 .slide {
-  background-color: #555555;
-  background-image: -moz-linear-gradient(#333333, #555555);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #333333), color-stop(1, #555555));
-  background-image: -webkit-linear-gradient(#333333, #555555);
-  background-image: -o-linear-gradient(#333333, #555555); }
+  background-color: #162340;
+  background-image: -moz-linear-gradient(#333333, #162340);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #333333), color-stop(1, #162340));
+  background-image: -webkit-linear-gradient(#333333, #162340);
+  background-image: -o-linear-gradient(#333333, #162340);
+  text-shadow: 2px 2px 2px #000; }
 
 h1, h2, h3 {
   text-align: left;
@@ -19,19 +20,19 @@ h1 {
 
 h2, h3 {
   font-family: Georgia, serif;
-  color: #f3d27f; }
+  color: #9d869c; }
 
 h2 {
   font-style: italic;
   font-size: 4em; }
 
 a {
-  color: #FFF;
+  color: #f3f0e7;
   text-decoration: none; }
 
 strong, b {
   font-weight: bolder;
-  color: #f3d27f; }
+  color: #9d869c; }
 
 pre {
   -moz-border-radius: 10px 10px/10px 10px;
@@ -42,7 +43,8 @@ pre {
 code {
   font-family: "Courier New", Courier, monospace;
   font-size: .6em;
-  font-weight: bold; }
+  font-weight: bold;
+  text-shadow: none; }
 
 pre.sh_sourceCode .sh_string {
   color: #32a632;

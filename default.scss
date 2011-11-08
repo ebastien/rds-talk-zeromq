@@ -4,21 +4,21 @@ $codefont: 'Courier New', Courier, monospace;
 $mainfont: 'Trebuchet MS', Helvetica, sans-serif;
 $altfont: Georgia, serif;
 
-$darkbrown: #806E42;
-$lightbrown: #F3D27F;
-$lightsand: #F3F0E7;
+$maincolor: #F3F0E7;
+$altcolor: #9D869C;
 
 $codecolor: #000;
 $textcolor: #32A632;
 $regexcolor: #806E42;
 
 body {
-  color: #F3F0E7;
+  color: $maincolor;
   font-family: $mainfont;
 }
 
 .slide {
-  @include linear-gradient(#333, #555);
+  @include linear-gradient(#333, #162340);
+  text-shadow: 2px 2px 2px #000;
 }
 
 h1, h2, h3 {
@@ -33,7 +33,7 @@ h1 {
 
 h2, h3 {
   font-family: $altfont;
-  color: $lightbrown;
+  color: $altcolor;
 }
 
 h2 {
@@ -42,13 +42,13 @@ h2 {
 }
 
 a {
-  color: #FFF;
+  color: $maincolor;
   text-decoration: none;
 }
 
 strong, b {
   font-weight: bolder;
-  color: $lightbrown;
+  color: $altcolor;
 }
 
 pre {
@@ -61,6 +61,7 @@ code {
   font-family: $codefont;
   font-size: .6em;
   font-weight: bold;
+  text-shadow: none;
 }
 
 pre.sh_sourceCode {
